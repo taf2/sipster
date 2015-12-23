@@ -96,6 +96,33 @@ Exported static methods
 
 * **createPlaylist**(< _array_ >filenames[, < _boolean_ >noLoop]) - _Media_ - Creates an audio player that sequentially reads from the list of `filenames`. Set `noLoop` to true to disable looping of the playlist. When `noLoop` is true, an 'eof' event will be emitted on the Media object when it reaches the end of the playlist.
 
+* **getDevices**() - _(array)_ - Gets list of audio devices
+
+* **setNullDev()** - _(void)_ - Set null audio device
+
+* **setPlaybackDev(<_int_>deviceId)** - _(void)_ - Set playback device
+
+* **setCaptureDev(<_int_>deviceId)** - _(void)_ - Set capture device
+
+* **getPlaybackDev(<_int_>deviceId)** - _(int)_ - Get playback device
+
+* **getCaptureDev(<_int_>deviceId)** - _(int)_ - Get capture device
+
+* **setAECTail(<_int_>tail)** - _(void)_ - Set EC tail in milliseconds
+
+* **getAECTail()** - _(int)_ - Get EC tail lenght
+
+* **setInputVolume(<_int_>volume)** - _(void)_ - Set input volume in percentage
+
+* **getInputVolume()** - _(int)_ - Get input volume percentage
+
+* **setOutputVolume(<_int_>volume)** - _(void)_ - Set output volume in percentage
+
+* **getOutputVolume()** - _(int)_ - Get output volume percentage
+
+* **getCaptureDevMedia()** - _(Media)_ - Get media object for input device
+
+* **getPlaybackDevMedia()** - _(Media)_ - Get media object for playback device
 
 Exported properties
 -------------------
