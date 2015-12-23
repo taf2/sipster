@@ -98,31 +98,31 @@ Exported static methods
 
 * **getDevices**() - _(array)_ - Gets list of audio devices
 
-* **setNullDev()** - _(void)_ - Set null audio device
+* **setNullDev**() - _(void)_ - Set null audio device
 
-* **setPlaybackDev(<_int_>deviceId)** - _(void)_ - Set playback device
+* **setPlaybackDev**(<_int_>deviceId) - _(void)_ - Set playback device
 
-* **setCaptureDev(<_int_>deviceId)** - _(void)_ - Set capture device
+* **setCaptureDev**(<_int_>deviceId) - _(void)_ - Set capture device
 
-* **getPlaybackDev(<_int_>deviceId)** - _(int)_ - Get playback device
+* **getPlaybackDev**(<_int_>deviceId) - _(int)_ - Get playback device
 
-* **getCaptureDev(<_int_>deviceId)** - _(int)_ - Get capture device
+* **getCaptureDev**(<_int_>deviceId) - _(int)_ - Get capture device
 
-* **setAECTail(<_int_>tail)** - _(void)_ - Set EC tail in milliseconds
+* **setAECTail**(<_int_>tail) - _(void)_ - Set EC tail in milliseconds
 
-* **getAECTail()** - _(int)_ - Get EC tail lenght
+* **getAECTail**() - _(int)_ - Get EC tail lenght
 
-* **setInputVolume(<_int_>volume)** - _(void)_ - Set input volume in percentage
+* **setInputVolume**(<_int_>volume) - _(void)_ - Set input volume in percentage
 
-* **getInputVolume()** - _(int)_ - Get input volume percentage
+* **getInputVolume**() - _(int)_ - Get input volume percentage
 
-* **setOutputVolume(<_int_>volume)** - _(void)_ - Set output volume in percentage
+* **setOutputVolume**(<_int_>volume) - _(void)_ - Set output volume in percentage
 
-* **getOutputVolume()** - _(int)_ - Get output volume percentage
+* **getOutputVolume**() - _(int)_ - Get output volume percentage
 
-* **getCaptureDevMedia()** - _(Media)_ - Get media object for input device
+* **getCaptureDevMedia**() - _(Media)_ - Get media object for input device
 
-* **getPlaybackDevMedia()** - _(Media)_ - Get media object for playback device
+* **getPlaybackDevMedia**() - _(Media)_ - Get media object for playback device
 
 Exported properties
 -------------------
