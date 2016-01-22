@@ -32,6 +32,11 @@
               '-frtti',
             ],
           },
+          'include_dirs': [
+            "src",
+            "<!(node -e \"require('nan')\")",
+            '<!@(pkg-config libpjproject --cflags-only-I | sed s/-I//g)',
+          ],
 
           # begin gyp stupidity workaround =====================================
           'ldflags!': [
